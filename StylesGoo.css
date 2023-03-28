@@ -1,0 +1,58 @@
+div{
+display: block;
+}
+
+body{
+font-size: 14px;
+font-family: arial,sans-serif;
+color: #bdc1c6;
+background-color: #202124;
+}
+
+a{
+color: #bdc1c6;
+}
+
+.top_bar{
+display: flex;
+width: 100%;
+height: 60px;
+background-color: aquamarine;
+}
+
+.container_top{
+position: relative;
+float: right;
+width: auto;
+height: auto;
+background-color: blue;
+display: flex;
+align-items: center;
+}
+
+.logo_bar{
+float: left;
+width: 100%;
+height: 200px;
+background-color: red;
+display: flex;
+align-items: center;
+}
+
+.nav_bar{
+display: flex;
+float: left;
+width: 100%;
+height: 300px;
+background-color: firebrick;
+align-items: center;
+}
+
+.bottom_bar{
+float: left;
+display: flex;
+align-items: center;
+width: 100%;
+height: 100px;   
+background-color: beige; 
+}
